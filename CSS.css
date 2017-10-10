@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+	
+body{
+	 text-align:center;
+	background-color: aliceblue;
+}
+
+input{
+	margin-left: 30px;
+}
+
+.cell{
+	margin-left:50px;
+	
+}
+
+.course{
+	margin-left: 5px;
+	margin-top: -20px;
+	}
+
+.cake{
+	margin-left: -70px;
+	}
+
+.border{
+	border: 2px dashed aliceblue;
+	border-radius: 15px;
+	}
+.space{
+	margin-left: 30px;
+	}
+	
+table,th, td{
+	border:1px solid black;
+	border-radius:5px;
+	}	
+	
+.lo{
+ margin-top: -30px;
+ background-image: url("./Picture/Yale.jpg");
+ height: 290px;
+ width: 100%;
+ background-size: cover; 
+ padding-right: 8px;
+}
+
+.map{
+	border: 2px solid black;
+	border-radius: 15px;
+	margin-left: 30px;
+	}
+
+li{
+	list-style:I;
+	}
+.big{
+	font-size: 40px;
+	text-transform:uppercase;
+	-webkit-text-stroke: 3px white;
+	}
+
+.small{
+	font-size: 18px;
+	text-transform: uppercase;
+	-webkit-text-stroke: 2px white;
+	color: black;
+	}
+.top{
+	font-family: "Raleway" , sans-serif;
+	margin-top: -18px;
+}
+
+.infra{
+	text-decoration:underline;
+}
+
+.directions{
+	border: 1px solid black;
+	border-radius: 15px;
+	}
+.direction{
+	text-align: left;
+	 width: 400px;
+	margin-left: -13px;
+	line-height: 45px;
+	font-family: "Raleway" , sans-serif;
+	}
+	
+#main{
+  width: 400px;
+	margin-left: 500px;
+	line-height: 40px;
+	font-family: "Raleway" , sans-serif;
+	
+}
+
+.heading{
+	font-family: "Raleway" , sans-serif;
+	 border-bottom: 1px solid LightGrey;
+     border-top: 1px solid LightGrey;
+	font-weight:200;
+}
+
+nav{
+	background-color: #000;
+	color:white;
+	padding: 13.5px;
+	opacity: 0.5;
+}
+
+nav a:hover{
+    background-color:#fff;
+	color: #000;
+	text-decoration: underline;
+	opacity: 1;
+	padding: 14px;
+	transition: 0.2s;
+}
+
+
+nav:hover{
+	opacity: 1;
+	transition: 0.5s;
+	}
+	
+nav a{
+	text-decoration: none;
+	color: #CCC;
+	padding: 14px;
+	}	
+	
+.center{
+	text-align: center;
+	}	
