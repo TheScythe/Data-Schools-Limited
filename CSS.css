@@ -89,9 +89,15 @@ li{
 	font-family: "Raleway" , sans-serif;
 	}
 	
+#enroll{
+	margin-top: -10px;
+	font-size: 50px;
+	text-decoration: underline;
+	}	
+
 #main{
   width: 400px;
-	margin-left: 500px;
+  margin-left:730px;
 	line-height: 40px;
 	font-family: "Raleway" , sans-serif;
 	
